@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/src/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tauri App</title>
+    <script type="module" src="/src/main.ts" defer></script>
+    <style>
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Welcome to Tauri!</h1>
+
+      <div class="row">
+      </div>
+
+      <p>Click on the Tauri logo to learn more about the framework</p>
+
+      <form class="row" id="greet-form">
+        <input id="greet-input" placeholder="Enter a name..." />
+        <button type="submit">Greet</button>
+      </form>
+
+      <p id="greet-msg"></p>
+    </div>
+    <div class="power-area">
+        <p class="power-parragraph"><span class="power-span" id="power-span">0</span>%</p>
+    </div>
+    <div class="clock-area">
+        <p id="clock-parragraph" class="clock-parragraph">00:00:00:000</p>
+    </div>
+    <div class="timer-area">
+        <form class="timer-form" id="timer-form">
+            <input type="number" name="" id="timer-input" placeholder="99" value="" />
+            <button type="submit" id="timer-button">Spawn Timer</button>
+        </form>
+        <div class="timer-list-area">
+            <ul id="timer-list">
+               <!-- <li>00:00:00:000</li>  -->
+            </ul>
+        </div>
+    </div>
+  </body>
+</html>
